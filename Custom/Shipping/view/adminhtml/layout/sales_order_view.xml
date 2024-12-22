@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Element/UiComponent/etc/ui_configuration.xsd">
+    <adminhtml_sales_order_view>
+        <referenceBlock name="order_shipping_method">
+            <arguments>
+                <argument name="shipping_method" xsi:type="string">pickup</argument>
+            </arguments>
+        </referenceBlock>
+    </adminhtml_sales_order_view>
+</layout>
